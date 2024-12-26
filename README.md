@@ -310,9 +310,12 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 
 
 # 실행 예시
+ ```
 CreationScience_LLM/screenshots/Chat-GPT_Answers.txt
+ ```
+ ```
 CreationScience_LLM/screenshots/LLM_Answers.txt
-
+ ```
 ## 1. 좋은 경우
 
 ### **Q1. 빅뱅이론은 사실입니까?**
