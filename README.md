@@ -1,4 +1,4 @@
-# **Creation & Evolution LLM**
+# **Creation Science LLM**
 
 주요 기능
 1. 특정 웹 페이지에서 데이터를 크롤링하여 처리.
