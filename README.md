@@ -333,3 +333,22 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 </div>
 
 
+# 실행 예시
+
+## **Q1. 빅뱅이론은 사실입니까?**
+
+| ChatGPT 응답                            | 창조과학 LLM 응답                    |
+|-----------------------------------------|--------------------------------------|
+| ![ChatGPT Q1-a](images/ChatGPT_Q1-a.png) | ![LLM Q1](images/LLM_Q1.png) |
+| ![ChatGPT Q1-b](images/ChatGPT_Q1-b.png) |                                      |
+
+---
+
+## **Q2. 연대측정 방법은 정확합니까?**
+
+| ChatGPT 응답                            | 창조과학 LLM 응답                    |
+|-----------------------------------------|--------------------------------------|
+| ![ChatGPT Q2-a](images/ChatGPT_Q2-a.png) | ![LLM Q2](images/LLM_Q2.png) |
+| ![ChatGPT Q2-b](images/ChatGPT_Q2-b.png) |                                      |
+
+
