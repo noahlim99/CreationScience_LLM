@@ -331,4 +331,22 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 | ![ChatGPT Q2-a](screenshots/ChatGPT_Q2-a.png)<br>![ChatGPT Q2-b](screenshots/ChatGPT_Q2-b.png) | ![LLM Q2](screenshots/LLM_Q2.png) |
 
 
+---
+
+
+### **Q3. 연대측정 방법은 정확합니까?**
+
+| ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
+|---------------------------------------------------------------------------|--------------------------------------|
+| ![ChatGPT Q3](screenshots/ChatGPT_Q3.png)| ![LLM Q3](screenshots/LLM_Q3.png) |
+
+
+---
+
+
+### **Q2. 연대측정 방법은 정확합니까?**
+
+| ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
+|---------------------------------------------------------------------------|--------------------------------------|
+| ![ChatGPT Q4-a](screenshots/ChatGPT_Q4-a.png)<br>![ChatGPT Q4-b](screenshots/ChatGPT_Q4-b.png) | ![LLM Q4](screenshots/LLM_Q4.png) |
 
