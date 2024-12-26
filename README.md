@@ -315,7 +315,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 
 | ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
 |---------------------------------------------------------------------------|--------------------------------------|
-| ![ChatGPT Q1-a](images/ChatGPT_Q1-a.png)<br>![ChatGPT Q1-b](images/ChatGPT_Q1-b.png) | ![LLM Q1](images/LLM_Q1.png) |
+| ![ChatGPT Q1-a](screenshots/ChatGPT_Q1-a.png)<br>![ChatGPT Q1-b](screenshots/ChatGPT_Q1-b.png) | ![LLM Q1](screenshots/LLM_Q1.png) |
 
 
 
@@ -327,7 +327,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 
 | ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
 |---------------------------------------------------------------------------|--------------------------------------|
-| ![ChatGPT Q2-a](images/ChatGPT_Q2-a.png)<br>![ChatGPT Q2-b](images/ChatGPT_Q2-b.png) | ![LLM Q2](images/LLM_Q2.png) |
+| ![ChatGPT Q2-a](screenshots/ChatGPT_Q2-a.png)<br>![ChatGPT Q2-b](screenshots/ChatGPT_Q2-b.png) | ![LLM Q2](screenshots/LLM_Q2.png) |
 
 
 
