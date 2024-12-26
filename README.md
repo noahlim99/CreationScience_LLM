@@ -127,7 +127,7 @@
 - **설명**:
   - 질문과 Context를 결합하여 GPT에 전달할 Prompt 생성.
   - GPT 모델을 사용하여 응답 생성.
-- **코드**:
+- **codes**:
     ```python
     from langchain.prompts import ChatPromptTemplate
     from langchain.prompts.chat import HumanMessagePromptTemplate
