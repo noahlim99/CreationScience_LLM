@@ -305,7 +305,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 ![ChatGPT Q1-b](images/ChatGPT_Q1-b.png)
 
 ### **2. 창조과학 LLM 응답**
-![창조 LLM Q1](images/창진LLM_Q1.png)
+![LLM Q1](images/LLM_Q1.png)
 
 ---
 
@@ -316,6 +316,6 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 ![ChatGPT Q2-b](images/ChatGPT_Q2-b.png)
 
 ### **2. 창조과학 LLM 응답**
-![창조 LLM Q2](images/창진LLM_Q2.png)
+![LLM Q2](images/LLM_Q2.png)
 
 
