@@ -9,9 +9,9 @@
 
 ## **목차**
 1. [크롤링 (Crawling)](#크롤링-crawling)
-1. [데이터 로드 및 처리 (Data Loading & Processing)](#데이터-로드-및-처리-data-loading--processing)
-    - [문서 로드 (Document Loading)](#문서-로드-document-loading)
-    - [문서 분할 (Document Splitting)](#문서-분할-document-splitting)
+1. [데이터 로드 및 처리 (Data Loading & Processing)](#data-loading--processing)
+    - [문서 로드 (Document Loading)](#document-loading)
+    - [문서 분할 (Document Splitting)](#document-splitting)
 2. [벡터 스토어 (Vector Store)](#벡터-스토어-vector-store)
 3. [질문 및 응답 생성 (RAG with GPT)](#질문-및-응답-생성-rag-with-gpt)
 4. [기술 스택 (Tech Stack)](#기술-스택-tech-stack)
@@ -99,7 +99,7 @@
 
 ---
 
-## **질문 및 응답 생성 (RAG with GPT-4o)**
+## **질문 및 응답 생성 (RAG with GPT)**
 
 ### **검색 및 Context 생성**
 - **사용 도구**: Chroma, MMR 기반 검색
