@@ -307,7 +307,11 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 ### **2. 창조과학 LLM 응답**
 ![LLM Q1](images/LLM_Q1.png)
 
+
+
 ---
+
+
 
 ## **Q2. 연대측정 방법은 정확합니까?**
 
