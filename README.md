@@ -352,3 +352,22 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 | ![ChatGPT Q2-b](images/ChatGPT_Q2-b.png) |                                      |
 
 
+
+# 실행 예시
+
+## **Q1. 빅뱅이론은 사실입니까?**
+
+| ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
+|---------------------------------------------------------------------------|--------------------------------------|
+| ![ChatGPT Q1-a](images/ChatGPT_Q1-a.png)<br>![ChatGPT Q1-b](images/ChatGPT_Q1-b.png) | ![LLM Q1](images/LLM_Q1.png) |
+
+---
+
+## **Q2. 연대측정 방법은 정확합니까?**
+
+| ChatGPT 응답                                                              | 창조과학 LLM 응답                    |
+|---------------------------------------------------------------------------|--------------------------------------|
+| ![ChatGPT Q2-a](images/ChatGPT_Q2-a.png)<br>![ChatGPT Q2-b](images/ChatGPT_Q2-b.png) | ![LLM Q2](images/LLM_Q2.png) |
+
+
+
