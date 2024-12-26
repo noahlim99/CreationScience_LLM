@@ -293,5 +293,29 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
        streamlit run LLM_prototype.py
        ```
 
+       
+---
+
+
+## **실행 예시**
+## **Q1. 빅뱅이론은 사실입니까?**
+
+### **1. ChatGPT 응답**
+![ChatGPT Q1-a](images/ChatGPT_Q1-a.png)
+![ChatGPT Q1-b](images/ChatGPT_Q1-b.png)
+
+### **2. 창조과학 LLM 응답**
+![창조 LLM Q1](images/창진LLM_Q1.png)
+
+---
+
+## **Q2. 연대측정 방법은 정확합니까?**
+
+### **1. ChatGPT 응답**
+![ChatGPT Q2-a](images/ChatGPT_Q2-a.png)
+![ChatGPT Q2-b](images/ChatGPT_Q2-b.png)
+
+### **2. 창조과학 LLM 응답**
+![창조 LLM Q2](images/창진LLM_Q2.png)
 
 
