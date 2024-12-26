@@ -356,3 +356,7 @@ CreationScience_LLM/screenshots/LLM_Answers.txt
 |---------------------------------------------------------------------------|--------------------------------------|
 | ![ChatGPT Q4-a](screenshots/ChatGPT_Q4-a.png)<br>![ChatGPT Q4-b](screenshots/ChatGPT_Q4-b.png) | ![LLM Q4](screenshots/LLM_Q4.png) |
 
+
+---
+## 2. 안좋은 경우
+
