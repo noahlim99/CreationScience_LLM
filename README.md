@@ -14,7 +14,7 @@
     - [문서 분할 (Document Splitting)](#document-splitting)
 2. [벡터 스토어 (Vector Store)](#벡터-스토어-vector-store)
 3. [질문 및 응답 생성 (RAG with GPT)](#질문-및-응답-생성-rag-with-gpt)
-4. [LLM 프로토타입 (LLM Prototype)](#llm-프로토타입-llm-prototype)
+4. [LLM 프로토타입 (LLM Prototype)](#LLM-프로토타입-llm-prototype)
 5. [기술 스택 (Tech Stack)](#기술-스택-tech-stack)
 6. [실행 예시](#실행-예시)
 
