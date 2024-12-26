@@ -273,7 +273,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
         st.markdown(response)
 ```
 
-- **설명(실행방법)**:
+- **실행방법**:
   - 1. LLM_prototype 다운로드 및 저장
   - 2. 필요 라이브러리 설치
        ```bash
