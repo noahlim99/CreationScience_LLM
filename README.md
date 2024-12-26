@@ -14,10 +14,13 @@
     - [문서 분할 (Document Splitting)](#document-splitting)
 2. [벡터 스토어 (Vector Store)](#벡터-스토어-vector-store)
 3. [질문 및 응답 생성 (RAG with GPT)](#질문-및-응답-생성-rag-with-gpt)
-4. [기술 스택 (Tech Stack)](#기술-스택-tech-stack)
-5. [LLM 프로토타입 (LLM Prototype)](#기술-스택-tech-stack)
+4. [LLM 프로토타입 (LLM Prototype)](#LLM-프로토타입)
+5. [기술 스택 (Tech Stack)](#기술-스택-tech-stack)
+6. [실행 예시](#실행-예시)
+
 
 ---
+
 
 ## **크롤링 (Crawling)**
 
@@ -25,7 +28,9 @@
 - **사용 도구**: BeautifulSoup, Python `requests`
 - **저장 경로**: 크롤링된 데이터를 JSON 파일로 변환 후 `output` 폴더에 저장
 
+
 ---
+
 
 ## **Data Loading & Processing**
 
@@ -78,7 +83,9 @@
     print(f"{len(docs)}개의 청크로 분할 완료")
     ```
 
+
 ---
+
 
 ## **벡터 스토어 (Vector Store)**
 
@@ -100,11 +107,12 @@
 
 ---
 
+
 ## **질문 및 응답 생성 (RAG with GPT)**
 
 ### **검색 및 Context 생성**
 - **사용 도구**: Chroma, MMR 기반 검색
-- **codes**:
+- **설명**:
   - 질문에 대한 관련 문서를 Chroma에서 검색(MMR 기반).
   - 검색된 문서를 Context로 변환.
 - **codes**:
@@ -155,18 +163,10 @@
         print(chunk.content, end="", flush=True)
     print("\n")
     ```
-    
----
 
-## **기술 스택 (Tech Stack)**
-
-- **데이터 처리**: LangChain (`RecursiveCharacterTextSplitter`, `Document`)
-- **임베딩 모델**: OpenAI Embeddings (`text-embedding-ada-002`)
-- **벡터 스토어**: Chroma
-- **LLM**: OpenAI GPT (`gpt-4o`)
-- **MMR 검색**: Chroma Retriever
 
 ---
+
 
 ## **LLM 프로토타입 (Prototype)**
 - **사용 도구**: streamlit
@@ -293,64 +293,20 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
        streamlit run LLM_prototype.py
        ```
 
-       
----
-
-
-## **실행 예시**
-## **Q1. 빅뱅이론은 사실입니까?**
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="text-align: center;">
-    <h4>ChatGPT 응답</h4>
-    <img src="images/ChatGPT_Q1-a.png" alt="ChatGPT Q1-a" width="500">
-    <img src="images/ChatGPT_Q1-b.png" alt="ChatGPT Q1-b" width="500">
-  </div>
-  <div style="text-align: center;">
-    <h4>창조과학 LLM 응답</h4>
-    <img src="images/LLM_Q1.png" alt="LLM Q1" width="500">
-  </div>
-</div>
-
-
 
 ---
 
 
+## **기술 스택 (Tech Stack)**
 
-## **Q2. 연대측정 방법은 정확합니까?**
+- **데이터 처리**: LangChain (`RecursiveCharacterTextSplitter`, `Document`)
+- **임베딩 모델**: OpenAI Embeddings (`text-embedding-ada-002`)
+- **벡터 스토어**: Chroma
+- **LLM**: OpenAI GPT (`gpt-4o`)
+- **MMR 검색**: Chroma Retriever
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="text-align: center;">
-    <h4>ChatGPT 응답</h4>
-    <img src="images/ChatGPT_Q2-a.png" alt="ChatGPT Q2-a" width="500">
-    <img src="images/ChatGPT_Q2-b.png" alt="ChatGPT Q2-b" width="500">
-  </div>
-  <div style="text-align: center;">
-    <h4>창조과학 LLM 응답</h4>
-    <img src="images/LLM_Q2.png" alt="LLM Q2" width="500">
-  </div>
-</div>
-
-
-# 실행 예시
-
-## **Q1. 빅뱅이론은 사실입니까?**
-
-| ChatGPT 응답                            | 창조과학 LLM 응답                    |
-|-----------------------------------------|--------------------------------------|
-| ![ChatGPT Q1-a](images/ChatGPT_Q1-a.png) | ![LLM Q1](images/LLM_Q1.png) |
-| ![ChatGPT Q1-b](images/ChatGPT_Q1-b.png) |                                      |
-
+  
 ---
-
-## **Q2. 연대측정 방법은 정확합니까?**
-
-| ChatGPT 응답                            | 창조과학 LLM 응답                    |
-|-----------------------------------------|--------------------------------------|
-| ![ChatGPT Q2-a](images/ChatGPT_Q2-a.png) | ![LLM Q2](images/LLM_Q2.png) |
-| ![ChatGPT Q2-b](images/ChatGPT_Q2-b.png) |                                      |
-
 
 
 # 실행 예시
@@ -361,7 +317,11 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 |---------------------------------------------------------------------------|--------------------------------------|
 | ![ChatGPT Q1-a](images/ChatGPT_Q1-a.png)<br>![ChatGPT Q1-b](images/ChatGPT_Q1-b.png) | ![LLM Q1](images/LLM_Q1.png) |
 
+
+
 ---
+
+
 
 ## **Q2. 연대측정 방법은 정확합니까?**
 
