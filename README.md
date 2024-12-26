@@ -280,7 +280,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
        pip install langchain
        pip install openai
        ```
-       (필요 시) 가상환경 활성화(
+       (필요 시) 가상환경 활성화
        ```bash
        source .venv/bin/activate
        ```
@@ -288,7 +288,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
        ```bash
        streamlit run llm_prototype.py
        ```
-  - 4. streamlit 프로토타입 실행
+  - 4. 프로토타입 실행
        ```bash
        streamlit run llm_prototype.py
        ```
