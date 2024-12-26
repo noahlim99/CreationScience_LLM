@@ -300,12 +300,17 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 ## **실행 예시**
 ## **Q1. 빅뱅이론은 사실입니까?**
 
-### **1. ChatGPT 응답**
-<img src="images/ChatGPT_Q1-a.png" alt="ChatGPT Q1-a" width="500">
-<img src="images/ChatGPT_Q1-b.png" alt="ChatGPT Q1-b" width="500">
-
-### **2. 창조과학 LLM 응답**
-<img src="images/LLM_Q1.png" alt="LLM Q1" width="500">
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="text-align: center;">
+    <h4>ChatGPT 응답</h4>
+    <img src="images/ChatGPT_Q1-a.png" alt="ChatGPT Q1-a" width="500">
+    <img src="images/ChatGPT_Q1-b.png" alt="ChatGPT Q1-b" width="500">
+  </div>
+  <div style="text-align: center;">
+    <h4>창조과학 LLM 응답</h4>
+    <img src="images/LLM_Q1.png" alt="LLM Q1" width="500">
+  </div>
+</div>
 
 
 
@@ -315,11 +320,16 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 
 ## **Q2. 연대측정 방법은 정확합니까?**
 
-### **1. ChatGPT 응답**
-<img src="images/ChatGPT_Q2-a.png" alt="ChatGPT Q2-a" width="500">
-<img src="images/ChatGPT_Q2-b.png" alt="ChatGPT Q2-b" width="500">
-
-### **2. 창조과학 LLM 응답**
-<img src="images/LLM_Q2.png" alt="LLM Q2" width="500">
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="text-align: center;">
+    <h4>ChatGPT 응답</h4>
+    <img src="images/ChatGPT_Q2-a.png" alt="ChatGPT Q2-a" width="500">
+    <img src="images/ChatGPT_Q2-b.png" alt="ChatGPT Q2-b" width="500">
+  </div>
+  <div style="text-align: center;">
+    <h4>창조과학 LLM 응답</h4>
+    <img src="images/LLM_Q2.png" alt="LLM Q2" width="500">
+  </div>
+</div>
 
 
