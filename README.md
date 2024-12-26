@@ -274,7 +274,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 ```
 
 - **설명(실행방법)**:
-  - 1. llm_prototype 다운로드 및 저장
+  - 1. LLM_prototype 다운로드 및 저장
   - 2. 필요 라이브러리 설치
        ```bash
        pip install langchain
@@ -286,11 +286,11 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
        ```
        streamlit 설치
        ```bash
-       streamlit run llm_prototype.py
+       pip install streamlit
        ```
   - 4. 프로토타입 실행
        ```bash
-       streamlit run llm_prototype.py
+       streamlit run LLM_prototype.py
        ```
 
 
