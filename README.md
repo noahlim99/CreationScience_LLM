@@ -304,7 +304,7 @@ if prompt := st.chat_input("무엇이 궁금하세요?"):
 - **벡터 스토어**: Chroma
 - **LLM**: OpenAI GPT (`gpt-4o`)
 - **MMR 검색**: Chroma Retriever
-
+- **Prototype**: Streamlit
   
 ---
 
